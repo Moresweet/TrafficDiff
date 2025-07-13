@@ -1,0 +1,7 @@
+[build-system]
+requires = [
+    "setuptools",
+    "Cython>=0.27.3",  # Note: sync with setup.py
+    "numpy"
+]
+build-backend = "setuptools.build_meta"
